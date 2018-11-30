@@ -1,0 +1,27 @@
+package com.internousdev.login.util;
+
+public class DBConnector {
+
+	private static String driverName = "com.mysql.jdbc.Driver";
+
+	private static String url = "jdbc:mysql;//localhost/logindb";
+
+
+	private static String user = "root";
+
+	private static String password = "mysql";
+
+
+	public Connection getConnection() {
+
+		try {
+
+			Class.forName(driverName);
+
+			con
+
+		}
+
+	}
+
+}
