@@ -7,4 +7,5 @@ org.eclipse.debug.ui.consoleBackground=45,54,57
 org.eclipse.debug.ui.errorColor=172,193,172
 org.eclipse.debug.ui.inColor=192,182,168
 org.eclipse.debug.ui.outColor=192,182,168
+org.eclipse.debug.ui.save_dirty_editors_before_launch=never
 preferredTargets=default\:default|

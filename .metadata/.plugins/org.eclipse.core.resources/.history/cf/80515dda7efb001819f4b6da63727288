@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=UTF-8">
+<title>問い合わせフォーム</title>
+</head>
+<body>
+
+    <s:form method="post" action="InquiryCompleteAction">
+
+        名前:<input type="text" name="name"/>
+
+    </s:form>
+
+</body>
+</html>
