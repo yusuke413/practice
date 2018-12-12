@@ -1,0 +1,28 @@
+package com.internousdev.webproj2.dao;
+
+import java.sql.Connection;
+
+import com.internousdev.webproj2.util.DBConnector;
+import com.sun.javafx.binding.SelectBinding;
+
+public class LoginDAO {
+
+	public String username;
+
+	public String password;
+
+
+	public boolean select(String username, String password) {
+
+		boolean ret = false;
+
+		DBConnector db = new DBConnector();
+
+		Connection con = db.getConnection();
+
+
+		String sql = "Select * from users where user_name=? and password=?";
+
+	}
+
+}
